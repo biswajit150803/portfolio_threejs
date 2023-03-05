@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import {About,Contact,Experience,Feedbacks,Hero,Navbar,Tech,Works,StarsCanvas} from "./components"
+import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -13,11 +14,12 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   )
