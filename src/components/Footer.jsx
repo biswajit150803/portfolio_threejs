@@ -6,4 +6,4 @@ const Footer = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work");
+export default Footer;
